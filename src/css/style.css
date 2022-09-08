@@ -1,0 +1,83 @@
+div{
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+form {
+    overflow: hidden;
+}
+ 
+label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+    margin-top: 1rem;
+}
+ 
+input, select{
+    width: 100%; 
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ 
+ input[type=submit]{
+     width: 100%;
+     background-color: #4caf50;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ 
+ 
+ button{
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.diminuir:hover{
+    background-color: rgb(25,25,112,0.8);
+}
+.aumentar:hover{
+    background-color: rgb(139,0,0,0.8);
+}
+.multiplicar:hover{
+    background-color: rgb(47,79,79,0.8);
+}
+.dividir:hover{
+    background-color: rgb(75,0,130,0.8);
+}
+.limpar:hover{
+    background-color: rgb(28,28,28,0.8);
+}
+
+
+.diminuir{
+    background-color: rgb(25,25,112);
+}
+.aumentar{
+    background-color: rgb(139,0,0);
+}
+.multiplicar{
+    background-color: rgb(47,79,79);
+}
+.dividir{
+    background-color: rgb(75,0,130);
+}
+.limpar{
+    background-color: rgb(28,28,28,0.8);
+}
